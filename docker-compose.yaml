@@ -41,7 +41,7 @@ services:
     PASSWORD_DEFAULT_PASSWORD: postdba
   ports:
     - 8081:80
-  depends on: 
+  depends_on: 
     - postgres  
   netwoks:
     - lamp-network
